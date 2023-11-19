@@ -18,6 +18,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
     <!-- -------------------------------------style link end---------------------------------- -->
 
@@ -95,14 +102,17 @@
           #title{
             font-family: 'Roboto', sans-serif;
           }
-          .product{
-            font-family: 'Poppins', sans-serif;
+          #product,#cardInfo{
+            font-family: 'Open Sans', sans-serif;
           }
           html{
             scroll-behavior: smooth;
           }
           .img1:hover{
             background-color: aqua;
+          }
+          #productDetail,#cardHead{
+            font-family: 'Raleway', sans-serif;
           }
         }
       </style>
@@ -203,18 +213,18 @@
             <!-- --------------------------------------------------------------------------- -->
             <div>
                 <h1 id="product" class="text-center xl:text-4xl font-bold mt-20 mb-8 md:text-3xl text-2xl">PRODUCTS</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit nihil sunt corporis ipsum rem officiis
+                <h1 id="productDetail" class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit nihil sunt corporis ipsum rem officiis
                     mollitia quidem quo, nulla, numquam quibusdam itaque obcaecati aperiam quasi nisi. Labore est
                     maiores sequi necessitatibus. Unde quo quibusdam, temporibus pariatur ipsa cupiditate sint delectus.
                     Pariatur quaerat deserunt itaque odit fugit blanditiis et, unde quod perspiciatis, natus dolorem,
-                    necessitatibus accusantium.</p>
+                    necessitatibus accusantium.</h1>
             </div>
             <!-- ------------------------------------------------------------------------------------- -->
 
 
             <!-- ------------------------------------------------------firstColumn End-------------------------------- -->
             <div  id="firstCardRow " >
-                <div class="xl:flex xl:flex-row my-6 md:grid md:place-content-center">
+                <div class="xl:flex xl:flex-row my-6 md:grid md:place-content-center grid place-content-center">
                     <!-- -----------------------------------------------firstCard---------------------------------- -->
 
                     <div
@@ -226,10 +236,10 @@
                         </a>
                         <div class="p-5">
                             <a href="#">
-                                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                <h5 id="cardHead" class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                                     Noteworthy technology acquisitions 2021</h5>
                             </a>
-                            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise
+                            <p id="cardInfo"  class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise
                                 technology acquisitions of 2021 so far, in reverse chronological order.</p>
                             <a href="#"
                                 class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
@@ -255,10 +265,10 @@
                         </a>
                         <div class="p-5">
                             <a href="#">
-                                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                <h5 id="cardHead" class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                                     Noteworthy technology acquisitions 2021</h5>
                             </a>
-                            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise
+                            <p id="cardInfo" class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise
                                 technology acquisitions of 2021 so far, in reverse chronological order.</p>
                             <a href="#"
                                 class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
@@ -284,10 +294,10 @@
                         </a>
                         <div class="p-5">
                             <a href="#">
-                                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                <h5 id="cardHead" class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                                     Noteworthy technology acquisitions 2021</h5>
                             </a>
-                            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise
+                            <p id="cardInfo" class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise
                                 technology acquisitions of 2021 so far, in reverse chronological order.</p>
                             <a href="#"
                                 class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
@@ -313,10 +323,10 @@
                         </a>
                         <div class="p-5">
                             <a href="#">
-                                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white ">
+                                <h5 id="cardHead" class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white ">
                                     Noteworthy technology acquisitions 2021</h5>
                             </a>
-                            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise
+                            <p id="cardInfo" class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise
                                 technology acquisitions of 2021 so far, in reverse chronological order.</p>
                             <a href="#"
                                 class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
@@ -340,7 +350,7 @@
             <!-- ------------------------------------------------------------------secondCardRow start------------------------------------------------------ -->
 
             <div id="secondCardRow ">
-                <div class="xl:flex xl:flex-row my-6 md:grid md:place-content-center">
+                <div class="xl:flex xl:flex-row my-6 md:grid md:place-content-center grid place-content-center">
                     <!-- -----------------------------------------------firstCard---------------------------------- -->
 
                     <div
@@ -352,10 +362,10 @@
                         </a>
                         <div class="p-5">
                             <a href="#">
-                                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                <h5 id="cardHead" class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white ">
                                     Noteworthy technology acquisitions 2021</h5>
                             </a>
-                            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise
+                            <p id="cardInfo" class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise
                                 technology acquisitions of 2021 so far, in reverse chronological order.</p>
                             <a href="#"
                                 class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
@@ -381,10 +391,10 @@
                         </a>
                         <div class="p-5">
                             <a href="#">
-                                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                <h5 id="cardHead" class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white ">
                                     Noteworthy technology acquisitions 2021</h5>
                             </a>
-                            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise
+                            <p id="cardInfo" class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise
                                 technology acquisitions of 2021 so far, in reverse chronological order.</p>
                             <a href="#"
                                 class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
@@ -410,10 +420,10 @@
                         </a>
                         <div class="p-5">
                             <a href="#">
-                                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                <h5 id="cardHead" class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white ">
                                     Noteworthy technology acquisitions 2021</h5>
                             </a>
-                            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise
+                            <p id="cardInfo" class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise
                                 technology acquisitions of 2021 so far, in reverse chronological order.</p>
                             <a href="#"
                                 class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
@@ -439,10 +449,10 @@
                         </a>
                         <div class="p-5">
                             <a href="#">
-                                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white ">
+                                <h5 id="cardHead" class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white ">
                                     Noteworthy technology acquisitions 2021</h5>
                             </a>
-                            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise
+                            <p id="cardInfo" class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise
                                 technology acquisitions of 2021 so far, in reverse chronological order.</p>
                             <a href="#"
                                 class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
@@ -464,7 +474,7 @@
             <div class="grid place-content-center">
                 <button
                     class="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-black dark:text-white focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 xl:w-80 xl:text-xl md:w-72 ">
-                    <span
+                    <span id="cardHead"
                         class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 xl:w-80 md:w-72">
                         View All
                     </span>
@@ -474,12 +484,12 @@
             <br>
             <hr>
 
-            <h2 id="catagory" class="text-center xl:text-4xl font-bold mt-20 mb-8 md:text-3xl text-2xl">Catagory</h2>
+            <h2  id="cardHead" class="text-center xl:text-4xl font-bold mt-20 mb-8 md:text-3xl text-2xl">Catagory</h2>
 
             <!-- -------------------------------------------------------------------------------------------------CatagoryFiestRow start----------------------------------------- -->
 
             <div id="secondCardRow ">
-                <div class="xl:flex xl:flex-row my-6 md:grid md:place-content-center">
+                <div class="xl:flex xl:flex-row my-6 md:grid md:place-content-center grid place-content-center">
                     <!-- -----------------------------------------------firstCard---------------------------------- -->
 
                     <div
@@ -489,7 +499,7 @@
                                 src="https://m.media-amazon.com/images/I/41frFc6JEyL._SY625_.jpg"
                                 alt="" />
                         </a>
-                        <div class="p-5">
+                        <div id="cardHead" class="p-5">
                             <a href="#">
                                 <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                                     Loafers</h5>
@@ -519,7 +529,7 @@
                                 alt="" />
                         </a>
                         <div class="p-5">
-                            <a href="#">
+                            <a id="cardHead" href="#">
                                 <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                                     Dress Shoes</h5>
                             </a>
@@ -548,9 +558,9 @@
                                 alt="" />
                         </a>
                         <div class="p-5">
-                            <a href="#">
+                            <a id="cardHead" href="#">
                                 <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                    sneakers</h5>
+                                    Sneakers</h5>
                             </a>
                             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise
                                 technology acquisitions of 2021 so far, in reverse chronological order.</p>
@@ -577,9 +587,9 @@
                                 alt="" />
                         </a>
                         <div class="p-5">
-                            <a href="#">
+                            <a id="cardHead" href="#">
                                 <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white ">
-                                    ballet flats</h5>
+                                    Ballet Flats</h5>
                             </a>
                             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise
                                 technology acquisitions of 2021 so far, in reverse chronological order.</p>
@@ -605,7 +615,7 @@
 
 
             <div id="secondCardRow ">
-                <div class="xl:flex xl:flex-row my-6 md:grid md:place-content-center">
+                <div class="xl:flex xl:flex-row my-6 md:grid md:place-content-center grid place-content-center">
                     <!-- -----------------------------------------------firstCard---------------------------------- -->
 
                     <div
@@ -616,9 +626,9 @@
                                 alt="" />
                         </a>
                         <div class="p-5">
-                            <a href="#">
+                            <a id="cardHead" href="#">
                                 <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                    sandals</h5>
+                                    Sandals</h5>
                             </a>
                             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise
                                 technology acquisitions of 2021 so far, in reverse chronological order.</p>
@@ -645,9 +655,9 @@
                                 alt="" />
                         </a>
                         <div class="p-5">
-                            <a href="#">
+                            <a id="cardHead" href="#">
                                 <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                    Noteworthy technology acquisitions 2021</h5>
+                                    Ballet pumps</h5>
                             </a>
                             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise
                                 technology acquisitions of 2021 so far, in reverse chronological order.</p>
@@ -674,9 +684,9 @@
                                 alt="" />
                         </a>
                         <div class="p-5">
-                            <a href="#">
+                            <a id="cardHead" href="#">
                                 <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                    athletic shoes</h5>
+                                    Athletic shoes</h5>
                             </a>
                             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise
                                 technology acquisitions of 2021 so far, in reverse chronological order.</p>
@@ -702,13 +712,13 @@
             <!-- -------------------------------------------------------------------------------------------------CatagorySecondRow end----------------------------------------- -->
 
 
-            <h2 id="featureProduct" class="text-center xl:text-4xl font-bold mt-20 mb-8 md:text-3xl text-2xl">Feature
+            <h2 id="cardHead" id="featureProduct" class="text-center xl:text-4xl font-bold mt-20 mb-8 md:text-3xl text-2xl">Feature
                 Product</h2>
 
             <!-- --------------------------------------------------------------------------------featureProductRow1----------------------------------- -->
             <div class="grid place-content-center xl:grid-flow-col gap-10 ">
 
-                <a data-aos="fade-up" href="#"
+                <a data-aos="fade-down" href="#"
                     class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl dark:border-gray-700 dark:bg-gray-800  hover:shadow-2xl hover:shadow-gray-800 transition-all duration-300 hover:scale-105 hover:bg-indigo-900">
                     <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
                         src="https://rukminim2.flixcart.com/image/832/832/xif0q/shoe/m/y/a/-original-imagtbtdgjtn8n3z.jpeg?q=70"
@@ -722,7 +732,7 @@
                 </a>
 
 
-                <a data-aos="zoom-out-left" href="#"
+                <a data-aos="fade-up"  href="#"
                     class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl dark:border-gray-700 dark:bg-gray-800  hover:shadow-2xl hover:shadow-gray-800 transition-all duration-300 hover:scale-105 hover:bg-indigo-900">
                     <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
                         src="https://rukminim2.flixcart.com/image/832/832/xif0q/shoe/f/q/h/-original-imagtajhaycgvexy.jpeg?q=70"
@@ -742,7 +752,7 @@
 
             <div  class="grid place-content-center xl:grid-flow-col gap-10 md:my-10 my-10">
 
-                <a data-aos="fade-up" href="#"
+                <a data-aos="fade-down"  href="#"
                     class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl dark:border-gray-700 dark:bg-gray-800  hover:shadow-2xl hover:shadow-gray-800 transition-all duration-300 hover:scale-105 hover:bg-indigo-900">
                     <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
                         src="https://rukminim2.flixcart.com/image/832/832/xif0q/shoe/c/h/w/-original-imagtbtfzuvn6ucv.jpeg?q=70"
@@ -756,7 +766,7 @@
                 </a>
 
 
-                <a data-aos="zoom-out-left" href="#"
+                <a data-aos="fade-up"  href="#"
                     class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl dark:border-gray-700 dark:bg-gray-800  hover:shadow-2xl hover:shadow-gray-800 transition-all duration-300 hover:scale-105 hover:bg-indigo-900">
                     <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
                         src="https://rukminim2.flixcart.com/image/832/832/xif0q/shoe/v/n/7/-original-imagtbteznvfrszn.jpeg?q=70"
